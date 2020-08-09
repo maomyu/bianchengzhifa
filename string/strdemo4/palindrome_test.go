@@ -6,8 +6,8 @@ import (
 )
 
 func TestIspalindRome(t *testing.T) {
-	fmt.Println(IspalindRome("abba"))
-	fmt.Println(IspalindRome("aba"))
+	fmt.Println(IsPalindrome2("abba"))
+	fmt.Println(IsPalindrome2("bacaa"))
 	fmt.Println("aabaa")
 	fmt.Println("abca")
 }
