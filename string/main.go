@@ -15,9 +15,11 @@ func testlink(){
 	strdemo1.LinkLeftShiftOne1(strdemo1.GetHead(),2)
 	strdemo1.TravelLink(strdemo1.GetHead())
 }
+
 func teststrdemo2(){
 	strdemo2.StringContain("abcdef","adcdr")
 }
+
 func teststrdemo3(){
 	fmt.Println(strdemo3.StrToInt("123"))
 	fmt.Println(strdemo3.StrToInt("   123434  1   "))
@@ -25,6 +27,7 @@ func teststrdemo3(){
 	fmt.Println(strdemo3.StrToInt("-23254 e"))
 	fmt.Println(strdemo3.StrToInt("-232542353443365"))
 }
+
 func main() {
 
 }
