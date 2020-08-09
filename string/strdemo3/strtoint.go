@@ -1,6 +1,8 @@
 package strdemo3
 
-import "strings"
+import (
+	"strings"
+)
 /*
 请你写一个函数StrToInt，实现把字符串转换成整数这个功能。
 当然，不能使用atoi或者其他类似的库函数
